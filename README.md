@@ -1,3 +1,4 @@
+[![Docker Build Status](https://img.shields.io/docker/build/rruizs/dockerflume.svg)](https://hub.docker.com/r/rruizs/dockerflume/builds/)
 # rruizs/dockerflume
 
   Self-contained Docker image containing Java and [Apache Flume 1.8](https://flume.apache.org/) based on [probablyfine/flume](https://hub.docker.com/r/probablyfine/flume/)
