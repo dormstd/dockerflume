@@ -11,10 +11,5 @@ echo "Starting flume agent : ${FLUME_AGENT_NAME}"
 flume-ng agent \
   -c ${FLUME_CONF_DIR} \
   -f ${FLUME_CONF_DIR}/flume.conf \
-  -n ${FLUME_AGENT_NAME} &
+  -n ${FLUME_AGENT_NAME}
 #If new configurations are added just copy the previous command and change the /flume.conf for your filename
-
-
-#Tell docker to print the logs so we can check them with 'docker logs' command
-sleep 5
-tail -f /opt/flume/logs/flume.log
