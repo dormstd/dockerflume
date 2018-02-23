@@ -13,7 +13,7 @@ $ docker run \
   --env FLUME_AGENT_NAME=agent\
   --volume /tmp/config.conf:/opt/flume-config/flume.conf \
   --detach \
-  rruizs/flume:latest
+  rruizs/dockerflume:latest
 ```
 
 Note: the `FLUME_AGENT_NAME` environment variable and presence of `/opt/flume-config/flume.conf` on the image are **required**.
